@@ -1,0 +1,138 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+  
+}
+
+input,label{
+    display: block;
+    width: 100%;
+   
+}
+
+
+body{
+    padding-top: 5vh;
+    background: #000000;
+   
+}
+
+#cadastro{
+    width: 520px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFF;
+    border-radius: 0;
+    padding: 10px 20px;
+    border-top: 8px solid #F08080;
+    
+   
+}
+
+#cadastro h1{
+    text-align: center;
+    font-size: 1.6rem;
+    color: red;
+    padding: 5px;
+    margin-bottom: auto;
+
+   
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+ 
+
+}
+
+.inteira-box{
+    flex: 1 1 100%;
+    position: relative;
+    
+}
+
+.metade-box{
+    flex: 1 1 45%;
+    position: relative;
+}
+
+
+.spacing{
+    margin-right: 2.5%;
+    
+
+}
+
+
+label{
+    font-weight: bold;
+    font-size: .8rem;
+    font-size: 15px;
+    margin-bottom: 5px;
+  
+}
+
+input{
+    background: #ebecec;
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: .9rem;
+    border: 0; 
+   
+}
+
+input[type="submit"]{
+width:15%;
+background-color:#0000ff ;
+color:#FFF;
+margin-left: auto;
+margin-right: auto;
+margin-top: 10px;
+
+}
+
+
+
+#agreement{
+  margin-right:5px;
+
+}
+
+#agreement, #agreement-label{
+    display: inline-block;
+    width: auto;
+
+}
+
+#newsletter-label{
+ font-size: 14px;
+ margin-top:10px ;
+ font-family: "roboto";
+
+ 
+}
+
+#agreement-label{
+    font-size: 14px;
+    font-family: "roboto";
+    font-weight: normal;
+  
+  
+}
+
+
+    
+
+
+
+
+   
+
+ 
+
+
+
